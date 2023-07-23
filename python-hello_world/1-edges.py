@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 word = "Holberton"
-slice1 = word[:3]
-slice2 = word[7:]
-slice3 = word[1:8]
-print("First 3 Letters: {}" .format(slice1))
-print("Last 2 letters: {}" .format(slice2))
-print("Middle word: {}" .format(slice3))
+word_first_3 = word[:3]
+word_last_2 = word[7:]
+middle_word = word[1:8]
+print("First 3 Letters: {}" .format(word_first_3))
+print("Last 2 letters: {}" .format(word_last_2))
+print("Middle word: {}" .format(middle_word))
