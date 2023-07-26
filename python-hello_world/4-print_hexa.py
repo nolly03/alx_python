@@ -1,2 +1,2 @@
-for num in range(99):
-    print(f"{num} = 0x{format(num, 'X')}")
+for i in range(99):
+    print("Decimal: %d, Hexadecimal: 0x%X" % (i, i))
