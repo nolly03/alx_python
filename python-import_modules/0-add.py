@@ -14,4 +14,4 @@ b = 2
 result = add(a, b)
 
 # Printing the result with string formatting
-print(f"{a} + {b} = {result}")
+print(f"{a} + {b} = {result}" end="\n")
