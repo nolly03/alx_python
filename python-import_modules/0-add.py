@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # Importing the add function from add_0.py
 from add_0 import add
-
+if __name__ == "__main__":
 # This is the add function that performs addition
 def add(a, b):
     return a + b
