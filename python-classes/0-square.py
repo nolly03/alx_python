@@ -11,7 +11,8 @@ class Square:
     # getting the size
     def get_size(self):
         return self.__size
-
+     # setting the size
     def set_size(self, size):
         self.__size = size
+
 
