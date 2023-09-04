@@ -1,12 +1,12 @@
 #Get all states 
-import MYSQLdb
+import MySQLdb
 class get_states:
     def __init__(self, username, password, database_name):
         self.name = username
         self.password = password
         self.database_name = database_name
         
-db_connect = MYSQLdb.connect(
+db_connect = MySQLdb.connect(
     host='localhost',
     port=3306,
     user='tester',
