@@ -16,7 +16,8 @@ db_connect = MySQLdb.connect(
 
 states = db_connect.cursor()
 cities = cursor.execute(
-    "CREATE DATABASE IF NOT EXISTS hbtn_0e_0_usa;
+    "
+    CREATE DATABASE IF NOT EXISTS hbtn_0e_0_usa;
     USE hbtn_0e_0_usa;
     CREATE TABLE IF NOT EXISTS states (
         id INT NOT NULL AUTO_INCREMENT,
