@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# defines a rectangle class
+"""defines a rectangle class"""
 from models.base import Base
 
 
 class Rectangle(Base):
-    # representing rectangle
+    """representing rectangle"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Initialize a new Rectangle.
