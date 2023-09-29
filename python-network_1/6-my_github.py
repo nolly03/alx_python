@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+import sys
+import requests
 """A script that:
 - takes your GitHub credentials (username and password)
 - uses the GitHub API to display your id
