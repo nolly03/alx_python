@@ -1,7 +1,8 @@
 import json
 import requests
 
-# Function to fetch tasks for a given user ID
+""" Function to fetch tasks for a given user ID
+"""
 def fetch_user_tasks(user_id):
     todos_url = f"https://jsonplaceholder.typicode.com/users/{user_id}/todos"
     todos_response = requests.get(todos_url)
